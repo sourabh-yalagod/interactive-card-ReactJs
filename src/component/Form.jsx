@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useFormik, validateYupSchema } from 'formik';
 import * as Yup from 'yup';
-import Card from './card';
+import Card from './Card.jsx';
 
 function Form() {
   const [formValues, setFormValues] = useState({
