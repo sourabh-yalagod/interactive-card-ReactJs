@@ -51,7 +51,7 @@ function Form() {
   return (
     <div className="sm:flex sm:justify-between h-screen">
       <Card formData={values} />
-      {!done?<form className="grid px-5 gap-4 pt-4 my-auto mx-auto" id="details" onSubmit={handleSubmit}>
+      {done?<form className="grid px-5 gap-4 pt-4 my-auto mx-auto" id="details" onSubmit={handleSubmit}>
       <div>
         <p className="text-[11px] uppercase text-blue-900 font-bold">cardholder name</p>
         <input
@@ -143,7 +143,7 @@ function Form() {
         <img src="images/icon-complete.svg" alt="icon-complete" className="m-auto"/>
         <h1 className="text-[24px] uppercase text-Very_dark_violet tracking-wider font-semibold">thank you!</h1>
         <p className="text-[15px] font-semibold text-gray-400">We've added your card details</p>
-        <button className="w-full bg-blue-950 text-white text-[17px] mt-3 tracking-widest py-2 rounded-[7px]" onClick={()=>setDone()}>Continue</button>
+        <button className="w-full bg-blue-950 text-white text-[17px] mt-3 tracking-widest py-2 rounded-[7px]" onClick={()=>setDone(!done)}>Continue</button>
       </div>
       }
     </div>

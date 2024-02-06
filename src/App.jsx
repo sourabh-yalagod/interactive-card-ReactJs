@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import Form from './component/form'
+import Form from './component/Form.jsx'
 import Card from './component/card'
 
 function App() {
