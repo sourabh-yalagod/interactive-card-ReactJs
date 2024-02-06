@@ -1,4 +1,9 @@
 # Interactive Card Component Using react
+ 
+# Links
+
+- Live Site URL: [Solution Repository](https://github.com/sourabh-yalagod/interactive-card-ReactJs)
+- Live Site URL: [live site](https://main--interactivecard9.netlify.app/) 
 
 ## Table of contents
 
@@ -30,8 +35,5 @@ Users should be able to:
 - tailwindcss
 - hover effet
 
-### Links
 
-- Live Site URL: [Solution Repository](https://github.com/sourabh-yalagod/Fylo-date-storage-component)
-- Live Site URL: [live site](https://sourabh-yalagod.github.io/Fylo-date-storage-component/)
 
